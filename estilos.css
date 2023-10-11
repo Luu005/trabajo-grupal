@@ -1,25 +1,73 @@
-header {
-    display: flex;
-    height: 70px;
-    background-color: rgb(253, 195, 123);
-    justify-content: space-between;
-    padding: 20%;
+*{
+    font-family: 'Gabarito', sans-serif;
 }
 
-a {
+body{
+    margin: 0;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.nombre-empresa {
+    background-color: rgb(143, 98, 61);
+    padding: 16px 20px 16px 20px;
+    border-radius: 10px;
+} /* segui desde aca, configurando el padding*/
+
+a{
+    color: azure;
     text-decoration: none;
-    color: bisque;
+    border: 5px solid rgb(143, 98, 61);
+    padding: 4px 6px 4px 6px;
+    border-radius: 10px;
+
 }
 
-.logo {
+header{
     display: flex;
+    min-height: 75px;
+    background-color: rgb(176, 131, 87);
+    border: 10px solid rgb(143, 98, 61);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 30px 5px 30px;
+    border-radius: 10px;
+
 }
 
-nav a:hover {
-    transform: translateY(+10px);
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px; 
+}
+
+nav a{
+    padding-right: 10px;
+
+}
+
+nav a:hover{
+    transform: translateY(-10px);
     transition-duration: 0.5s;
     transition-timing-function: ease;
     transition-delay: 0.3;
-    background-color: rgb(239, 173, 42);
-    color: rgb(255, 233, 152);
+    background-color: rgb(77, 51, 0);
+    color: rgb(218, 201, 174);
+}
+
+@media (max-width:700px) {
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
 }
