@@ -1,0 +1,62 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+}
+
+p {
+    color: aliceblue;
+}
+
+.parrafo-inicial {
+    background-color: rgb(36, 36, 36);
+    padding: 40px 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 30px;
+    background: linear-gradient(90deg, #dec282, #543805);
+    text-shadow: 2px 2px 4px rgb(53, 53, 53);
+    /*segui desde aca*/
+}
+
+.cabecera {
+    background-color: rgb(36, 36, 36);
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dec282;
+}
+
+.texto-inicial {
+    color: aliceblue;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    transform: translateY(+10px);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    background-color: #dec282;
+    color: rgb(255, 255, 255);
+}
