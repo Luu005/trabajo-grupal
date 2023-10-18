@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(36, 36, 36);
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: alicebldasdaue;
+}
+
+.cabecera {
+    background-color: rgb(36, 36, 36);
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dec282;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    transform: translateY(+10px);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    background-color: #dec282;
+    color: rgb(255, 255, 255);
+}
+
+.tabla-estilos {
+    margin:auto;
+    margin-top: 50px;
+    border-collapse: collapse;/*esta propiedad hace que las celdas compartan bordes,
+    hace que se vea mas uniforme */
+    width: 70%;/*para que se ajuste al contenido de los items */
+    border: 2px solid #dec282 ;
+    background-color: rgb(28, 28, 28);
+    color: aliceblue;
+    text-align: center;
+}
+
+tr td {
+    padding-top: 30px;
+    color: #dec282;
+}
+
+img:hover {
+    cursor: pointer;
+    transition: 0.5s ease;
+    width: 210px;
+    opacity: 1;
+    filter: contrast(100%);
+}

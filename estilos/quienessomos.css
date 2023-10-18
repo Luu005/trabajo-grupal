@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(36, 36, 36);
+}
+
+p {
+    color: aliceblue;
+}
+
+.cabecera {
+    background-color: rgb(36, 36, 36);
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dec282;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    transform: translateY(+10px);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+    background-color: #dec282;
+    color: rgb(255, 255, 255);
+}
