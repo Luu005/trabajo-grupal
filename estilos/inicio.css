@@ -9,33 +9,17 @@ p {
     color: aliceblue;
 }
 
-.parrafo-inicial {
-    background-color: rgb(36, 36, 36);
-    padding: 40px 30px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 30px;
-    background: linear-gradient(90deg, #dec282, #543805);
-    text-shadow: 2px 2px 4px rgb(53, 53, 53);
-    /*segui desde aca*/
-}
-
 .cabecera {
     background-color: rgb(36, 36, 36);
     padding-bottom: 30px;
     border-bottom: 2px solid #dec282;
 }
 
-.texto-inicial {
-    color: aliceblue;
-    margin-top: 50px;
-    margin-left: 20px;
-}
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: auto;
+    margin: 0;
 }
 
 nav ul li {
@@ -58,9 +42,84 @@ nav ul li a:hover {
     color: rgb(255, 255, 255);
 }
 
-/*
-.contenedor-icono {
+h1 {
     text-align: center;
-    color: #dec282;
+    font-weight: 10;
+    color:#dec282;
+    background-color: rgb(27, 27, 27);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 18%;
+    margin-right: 18%;
 }
-para poner dentro del formulario, el icono de sobre */
+
+h2 {
+    text-align: center;
+    font-weight: 10;
+    color:rgb(27, 27, 27);
+    background-color: #dec282;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.parrafo-inicial {
+    text-align: center;
+    background-color: rgb(27, 27, 27);
+    padding: 40px;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #dec282;
+    color: white;
+    border-color: white;
+    min-width: 300px;
+}
+
+div img {
+    display: block; /* utilizamos el block para volverlo un bloque,  */
+    margin: 0 auto;
+    width: 1000px;
+    height: 350px;
+    padding-top: 10px;
+    object-fit: cover;
+}
+
+div img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    transition-duration: 0.5s;
+  
+}
+
+.iconos {
+    text-align: left;
+    color: #dec282;
+    inline-size: auto;
+}
+
+
+.piedepagina {
+    width: 60%;
+    height: 2em;
+    font-size: 1em;
+    background-color: #dec282;
+    color: black;
+    min-width: 100%;
+}
