@@ -21,25 +21,32 @@ function validarFormulario() {
         alert("Indique su edad en números");
         document.formulario.edad.focus();
         return;
-        }
+    }
 
     if (document.formulario.mail.value == "" || document.formulario.okmail.value == "") {
-            alert("Complete ambos campos de Correo electrónico");
-            document.formulario.mail.focus();
-            return;
-            }
+        alert("Complete ambos campos de Correo electrónico");
+        document.formulario.mail.focus();
+        return;
+    }
 
     if (document.formulario.okmail.value != document.formulario.mail.value) {
         alert("Los email ingresados no coinciden")
         document.formulario.mail.focus();
         return;
-        }
+    }
 
     if (document.formulario.pregunta.selectedIndex == 0) {
         alert("Seleccione una respuesta para ¿Cómo nos conociste?");
         document.formulario.pregunta.focus();
         return;
-        }
+    }
+    
+
+    if (document.formulario.terminos.checked == false) {
+        alert("Debe aceptar Términos y condiciones para continuar");
+        document.formulario.terminos.focus();
+        return;
+    }
 
 alert("¡Gracias por suscribirte al Club del Café!")
 document.formulario.submit();
