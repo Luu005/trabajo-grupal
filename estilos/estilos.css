@@ -5,21 +5,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    text-align: center;
+    color: aliceblue;
+    background-color: (27, 27, 27);
+}
+
 .cabecera {
+    align: center;
+    width: 100%;
     background-color: rgb(36, 36, 36);
     padding-bottom: 30px;
     border-bottom: 2px solid #dec282;
 }
 
-
 nav ul {
+    display: inline-flex;
+    justify-content: space-evenly;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 nav ul li {
-    display: inline;
+    display: inline-flex;
+    justify-content: space-evenly;
+    position: center;
     margin: 10px;
 }
 
@@ -62,66 +73,46 @@ h2 {
     margin-right: 18%;
 }
 
-p {
+.parrafo-inicial {
     text-align: center;
     background-color: rgb(27, 27, 27);
-    color: aliceblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 40px;
     margin-left: 18%;
     margin-right: 18%;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+label {
+    display: block;
+    margin: 0.5rem 0;
 }
 
-nav ul li {
-    display: inline-flex;
-    justify-content: space-evenly;
-    position: center;
-    margin: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding: 5px 10px;
-    color: aliceblue;
-}
-
-nav ul li a:hover {
-    transform: translateY(+10px);
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0.1s;
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
     background-color: #dec282;
-    color: rgb(255, 255, 255);
+    color: white;
+    border-color: white;
+    min-width: 300px;
 }
 
-.tabla-estilos {
-    margin:auto;
-    margin-top: 50px;
-    border-collapse: collapse;
-    width: 70%;
-    border: 2px solid #dec282;
-    background-color: rgb(28, 28, 28);
-    color: aliceblue;
-    text-align: center;
+div img {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: 350px;
+    padding-top: 10px;
+    object-fit: cover;
 }
 
-tr td {
-    padding-top: 30px;
-    color: #dec282;
-}
-
-img:hover {
-    cursor: pointer;
-    transition: 0.5s ease;
-    width: 210px;
-    opacity: 1;
-    filter: contrast(100%);
+div img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    transition-duration: 0.5s;
+  
 }
 
 #iconos {
@@ -145,8 +136,16 @@ img:hover {
     background-color: rgba(255, 255, 255, 0.25)
 }
 
+#video {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background-color:rgb(27, 27, 27);
+    margin: 15px;
+    font-size: 2vw;
+}
+
 h3 {
     color: #fff;
     font-style: italic;
 }
-
