@@ -6,27 +6,28 @@ body {
 }
 
 .cabecera {
+    align: center;
+    width: 100%;
     background-color: rgb(36, 36, 36);
     padding-bottom: 30px;
     border-bottom: 2px solid #dec282;
 }
 
-
 nav ul {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
     list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 10px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 1.5vw;
 }
 
 nav ul li a {
     text-decoration: none;
     padding: 5px 10px;
     color: aliceblue;
+    background-color: rgb(62, 53, 38);
 }
 
 nav ul li a:hover {
@@ -66,38 +67,9 @@ p {
     text-align: center;
     background-color: rgb(27, 27, 27);
     color: aliceblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     margin-left: 18%;
     margin-right: 18%;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline-flex;
-    justify-content: space-evenly;
-    position: center;
-    margin: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    padding: 5px 10px;
-    color: aliceblue;
-}
-
-nav ul li a:hover {
-    transform: translateY(+10px);
-    transition-duration: 0.5s;
-    transition-timing-function: ease;
-    transition-delay: 0.1s;
-    background-color: #dec282;
-    color: rgb(255, 255, 255);
 }
 
 .tabla-estilos {
@@ -126,7 +98,7 @@ img:hover {
 
 #iconos {
     display: flex;
-    width: 50%;
+    width: 60%;
     justify-content: space-between;
     color: #dec282;
     margin: 20px 10%;
@@ -142,7 +114,7 @@ img:hover {
     margin-top: 30px;
     padding: 5%;
     font-size: 13px;
-    background-color: rgba(255, 255, 255, 0.25)
+    background-color: rgba(255, 255, 255, 0.25);
 }
 
 h3 {

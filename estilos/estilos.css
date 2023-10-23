@@ -21,23 +21,19 @@ p {
 
 nav ul {
     display: inline-flex;
+    width: 100%;
     justify-content: space-evenly;
     list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    display: inline-flex;
-    justify-content: space-evenly;
-    position: center;
-    margin: 10px;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    font-size: 1.5vw;
 }
 
 nav ul li a {
     text-decoration: none;
     padding: 5px 10px;
     color: aliceblue;
+    background-color: rgb(62, 53, 38);
 }
 
 nav ul li a:hover {
